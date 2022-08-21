@@ -1,0 +1,34 @@
+@import './utils/variables';
+@import './base/normalize';
+@import './base/common';
+@import './base/reset';
+@import './utils/hidden';
+
+@import './components/header/header';
+@import './components/logo';
+@import './components/header/header-nav';
+@import './components/header/header-contacts';
+
+@import './components/studio/hero/hero';
+@import './components/studio/hero/modal';
+@import './components/studio/hero/modal-form';
+
+@import './components/studio/advantages/adv-icon';
+@import './components/studio/advantages/advantages';
+
+@import './components/studio/activity/activity';
+@import './components/studio/activity/activity-cover';
+
+@import './components/studio/team/worker';
+@import './components/studio/team/worker-soc';
+
+@import './components/studio/clients';
+
+@import './components/footer/footer';
+@import './components/footer/contacts';
+@import './components/footer/footer-soc';
+@import './components/footer/footer-form';
+
+@import './components/portfolio/portfolio';
+@import './components/portfolio/filter-btn';
+@import './components/portfolio/text-cover';
