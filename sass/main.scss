@@ -2,6 +2,7 @@
 @import './base/normalize';
 @import './base/common';
 @import './base/reset';
+@import './utils/placeholder';
 @import './utils/hidden';
 
 @import './components/header/header';
@@ -13,8 +14,7 @@
 @import './components/studio/hero/modal';
 @import './components/studio/hero/modal-form';
 
-@import './components/studio/advantages/adv-icon';
-@import './components/studio/advantages/advantages';
+@import './components/studio/advantages';
 
 @import './components/studio/activity/activity';
 @import './components/studio/activity/activity-cover';
