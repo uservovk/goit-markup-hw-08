@@ -1,26 +1,32 @@
 .clients {
-    padding-bottom: 94px;
-    padding-top: 94px;
+    padding-bottom: 60px;
+    padding-top: 60px;
+    @media screen and(min-width:1200px) {
+        padding-bottom: 94px;
+        padding-top: 94px;
+    }
 }
 .clients__title {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-weight: 700;
     font-size: 28px;
     line-height: 1.178;
     text-align: center;
     letter-spacing: 0.03em;
     color: $title-color;
+    @media screen and(min-width:1200px) {
+        font-size: 36px;
+        line-height: 1.166;
+        margin-bottom: 50px;
+    }
 }
 .clients__list {
-    // display: flex;
-    // justify-content: center;
     display: flex;
     flex-wrap: wrap;
     list-style: none;
     @media screen and (min-width:480px) {
         margin: -15px;
     }
-
 }
 .clients__item {
     width: 100%;

@@ -2,6 +2,10 @@
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: $bg-color;
+    @media screen and(min-width:1200px) {
+        padding-bottom: 94px;
+        padding-top: 94px;
+    }
 }
 .team__title {
     margin-bottom: 30px;
@@ -11,6 +15,11 @@
     text-align: center;
     letter-spacing: 0.03em;
     color: $title-color;
+    @media screen and(min-width:1200px) {
+        margin-bottom: 50px;
+        font-size: 28px;
+        line-height: 1.166;
+    }
 }
 .team__list {
     display: flex;
@@ -59,4 +68,7 @@
 .worker {
     padding-top: 30px;
     padding-bottom: 24px;
+    @media screen and(min-width:1200px) {
+        padding-bottom: 30px;
+    }
 }

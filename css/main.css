@@ -939,6 +939,12 @@ textarea {
   padding-bottom: 60px;
   background-color: #F5F4FA;
 }
+@media screen and (min-width: 1200px) {
+  .team {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
+}
 
 .team__title {
   margin-bottom: 30px;
@@ -948,6 +954,13 @@ textarea {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+@media screen and (min-width: 1200px) {
+  .team__title {
+    margin-bottom: 50px;
+    font-size: 28px;
+    line-height: 1.166;
+  }
 }
 
 .team__list {
@@ -1012,6 +1025,11 @@ textarea {
   padding-top: 30px;
   padding-bottom: 24px;
 }
+@media screen and (min-width: 1200px) {
+  .worker {
+    padding-bottom: 30px;
+  }
+}
 
 .soc__link {
   width: 44px;
@@ -1048,18 +1066,31 @@ textarea {
 }
 
 .clients {
-  padding-bottom: 94px;
-  padding-top: 94px;
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+@media screen and (min-width: 1200px) {
+  .clients {
+    padding-bottom: 94px;
+    padding-top: 94px;
+  }
 }
 
 .clients__title {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   font-weight: 700;
   font-size: 28px;
   line-height: 1.178;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
+}
+@media screen and (min-width: 1200px) {
+  .clients__title {
+    font-size: 36px;
+    line-height: 1.166;
+    margin-bottom: 50px;
+  }
 }
 
 .clients__list {
