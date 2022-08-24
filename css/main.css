@@ -1375,8 +1375,8 @@ textarea {
 }
 
 .portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .portfolio__item {
@@ -1461,18 +1461,21 @@ textarea {
 }
 
 .portfolio__btn-list {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   list-style: none;
 }
 
-.portfolio__btn-list .portfolio__btn-item + .portfolio__btn-item {
-  margin-left: 8px;
+.portfolio__btn-item {
+  margin-bottom: 15px;
+}
+
+.portfolio__btn-item:not(:last-child) {
+  margin-right: 8px;
 }
 
 .wrap {

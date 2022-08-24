@@ -19,14 +19,19 @@
         background-color: $accent-color;
     }
 }
-
 .portfolio__btn-list {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
+    // justify-content: center;
     list-style: none;
 }
-
-.portfolio__btn-list .portfolio__btn-item+.portfolio__btn-item {
-    margin-left: 8px;
+.portfolio__btn-item {
+    margin-bottom: 15px;
 }
+.portfolio__btn-item:not(:last-child) {
+    margin-right: 8px;
+}
+// .portfolio__btn-list .portfolio__btn-item+.portfolio__btn-item {
+//     margin-left: 8px;
+// }
