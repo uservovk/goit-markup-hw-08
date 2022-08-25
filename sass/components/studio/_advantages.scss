@@ -5,7 +5,7 @@
 .advantages__list {
     // display: flex;
     list-style: none;
-    @media screen and (min-width:768px) {
+    @include tablet {
         display: flex;
         flex-wrap: wrap;
         margin: -15px;
@@ -13,11 +13,11 @@
 }
 .advantages__item {
     width: 100%;
-    @media screen and (min-width:768px) {
+    @include tablet {
         width: calc((100% - 2 * 30px) / 2);
         margin: 15px;
     }
-    @media screen and (min-width:1200px) {
+    @include desktop {
         width: calc((100% - 4 * 30px) / 4);
     }
     &:not(:last-child) {
