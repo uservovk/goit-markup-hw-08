@@ -498,6 +498,12 @@ ul {
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../../../../images/tablet/bg-tablet.jpg");
   }
 }
+@media screen and (min-width: 1200px) {
+  .hero__container {
+    height: 600px;
+    padding: 200px 237px;
+  }
+}
 
 .hero__title {
   margin: 0 auto;
@@ -520,6 +526,8 @@ ul {
 }
 @media screen and (min-width: 1200px) {
   .hero__title {
+    width: 696px;
+    height: 120px;
     font-size: 44px;
     line-height: 60px;
   }
