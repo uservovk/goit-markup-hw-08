@@ -1,4 +1,4 @@
-@mixin upper-font($color: $secondary-color) {
+@mixin uppercase-title($color: $secondary-color) {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
