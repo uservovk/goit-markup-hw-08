@@ -3,18 +3,31 @@
     padding-bottom: 60px;
     background-color: #2F303A;
     @include tablet {
-        padding-right: 89px;
-        padding-left: 76px;
+        padding-right: 74px;
+        padding-left: 61px;
     }
 }
 
 .footer-content {
     display: flex;
     flex-direction: column;
+    @include tablet {
+        display: block;
+    }
 }
 
 .footer__logo-contacts {
     margin-bottom: 60px;
     display: inline-block;
     text-align: center;
+}
+.footer__wrap {
+    display: flex;
+    flex-direction: column;
+    @include tablet {
+display: flex;
+flex-direction: row;
+    justify-content: space-between;
+    }
+    
 }

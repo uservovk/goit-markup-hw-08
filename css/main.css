@@ -1213,8 +1213,8 @@ textarea {
 }
 @media screen and (min-width: 768px) {
   .footer {
-    padding-right: 89px;
-    padding-left: 76px;
+    padding-right: 74px;
+    padding-left: 61px;
   }
 }
 
@@ -1227,11 +1227,40 @@ textarea {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+@media screen and (min-width: 768px) {
+  .footer-content {
+    display: block;
+  }
+}
 
 .footer__logo-contacts {
   margin-bottom: 60px;
   display: inline-block;
   text-align: center;
+}
+
+.footer__wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .footer__wrap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .contacts__list {
@@ -1268,6 +1297,12 @@ textarea {
   margin-bottom: 60px;
   display: inline-block;
   text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .social {
+    margin-bottom: 0;
+    margin-top: 5px;
+  }
 }
 
 .social__list {
@@ -1392,7 +1427,7 @@ textarea {
 }
 @media screen and (max-width: 345px) {
   .subscribe__field input {
-    width: 304px;
+    width: 300px;
   }
 }
 .subscribe__field input::-webkit-input-placeholder {
