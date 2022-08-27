@@ -1,9 +1,20 @@
 .footer {
-    background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
+    background-color: #2F303A;
+    @include tablet {
+        padding-right: 89px;
+        padding-left: 76px;
+    }
 }
 
 .footer-content {
     display: flex;
+    flex-direction: column;
+}
+
+.footer__logo-contacts {
+    margin-bottom: 60px;
+    display: inline-block;
+    text-align: center;
 }
