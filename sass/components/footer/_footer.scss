@@ -30,6 +30,13 @@
     margin-bottom: 60px;
     display: inline-block;
     text-align: center;
+    @include desktop {
+        margin-right: 70px;
+    }
+    @include desktop {
+        text-align: start;
+        margin-bottom: 0;
+    }
 }
 .footer__wrap {
     display: flex;

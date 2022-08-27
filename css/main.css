@@ -351,6 +351,12 @@ ul {
   color: #2196F3;
   text-decoration: none;
 }
+@media screen and (min-width: 1200px) {
+  .logo__link {
+    font-size: 26px;
+    line-height: 1.192;
+  }
+}
 
 .logo__span--color-black {
   color: #000000;
@@ -1255,6 +1261,17 @@ textarea {
   display: inline-block;
   text-align: center;
 }
+@media screen and (min-width: 1200px) {
+  .footer__logo-contacts {
+    margin-right: 70px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .footer__logo-contacts {
+    text-align: start;
+    margin-bottom: 0;
+  }
+}
 
 .footer__wrap {
   display: -webkit-box;
@@ -1294,6 +1311,11 @@ textarea {
 .contacts__list .contacts__item:not(:last-child) {
   margin-bottom: 8px;
 }
+@media screen and (min-width: 1200px) {
+  .contacts__list .contacts__item:not(:last-child) {
+    margin-bottom: 9px;
+  }
+}
 
 .contacts__link {
   font-style: normal;
@@ -1326,6 +1348,11 @@ textarea {
   .social {
     margin-bottom: 0;
     margin-top: 5px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .social {
+    margin-top: 12px;
   }
 }
 
@@ -1389,6 +1416,20 @@ textarea {
       -ms-flex-align: center;
           align-items: center;
 }
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    margin-left: auto;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe {
+    margin-top: 12px;
+  }
+}
+
 .subscribe__field {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1459,6 +1500,12 @@ textarea {
 @media screen and (max-width: 345px) {
   .subscribe__field input {
     width: 300px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .subscribe__field input {
+    width: 358px;
+    margin-right: 12px;
   }
 }
 .subscribe__field input::-webkit-input-placeholder {

@@ -4,6 +4,9 @@
 
 .contacts__list .contacts__item:not(:last-child) {
     margin-bottom: 8px;
+    @include desktop {
+        margin-bottom: 9px;
+    }
 }
 
 .contacts__link{
