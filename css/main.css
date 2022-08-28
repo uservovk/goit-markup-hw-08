@@ -373,6 +373,11 @@ ul {
 
 .mob-menu__nav {
   padding-left: 25px;
+  margin-bottom: 300px;
+}
+
+.mob-menu__nav-item:not(:last-child) {
+  margin-bottom: 32px;
 }
 
 .mob-menu__nav-link {
@@ -387,8 +392,40 @@ ul {
   padding-left: 25px;
 }
 
+.mob-menu__connect-item:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.mob-menu__connect-phone {
+  font-weight: 500;
+  font-size: 34px;
+  line-height: 1.176;
+  letter-spacing: 0.02em;
+  color: #2196F3;
+}
+
+.mob-menu__connect-mail {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.166;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+
 .mob-menu__soc-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 64px;
   padding-left: 25px;
+}
+
+.mob-menu__soc-link {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: 0.02em;
+  color: #2196F3;
 }
 
 .header-content__logo {
