@@ -8,6 +8,9 @@
     &:focus {
         fill: $accent-color;
     }
+    @include tablet {
+        display: none;
+    }
 }
 
 .mob-menu__close {

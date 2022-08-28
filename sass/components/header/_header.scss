@@ -3,10 +3,17 @@
     // position: relative;
     padding-top: 10px;
     padding-bottom: 10px;
+    @include tablet {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
 }
 
 .header-content {
     display: flex;
     padding-right: 10px;
     position: relative;
+    @include tablet {
+        padding-right: 15px;
+    }
 }
