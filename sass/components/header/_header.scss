@@ -1,80 +1,86 @@
-// .header {
-//     border-bottom: 1px solid #ECECEC;
-// }
+.header {
+    // border-bottom: 1px solid #ECECEC;
+    // position: relative;
+}
 
 .header-content {
     display: flex;
 }
 
-.menu-open {
-    margin-left: auto;
-    padding: 0;
-    background-color: transparent;
-    border: none;
-}
-.mob-menu__close {
-    padding: 0;
-    background-color: transparent;
-    border: none;
-}
 .mob-menu {
-    position: fixed;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
-    // .mob-menu__close
-
-    &__close {}
-
-    // .mob-menu__nav
-
-    &__nav {}
-
-    // .mob-menu__current
-
-    &__current {}
-
-    // .mob-menu__soc-list
-
-    &__soc-list {}
-
-    // .mob-menu__soc-item
-
-    &__soc-item {}
-
-    // .mob-menu__soc-link
-
-    &__soc-link {}
+    margin-left: auto;
 }
 
-.mob-mune {
+// .menu-open {
+//     margin-left: auto;
+//     padding: 0;
+//     background-color: transparent;
+//     border: none;
+// }
+// .mob-menu__close {
+//     padding: 0;
+//     background-color: transparent;
+//     border: none;
+// }
+// .mob-menu {
+//     padding-top: 48px;
+//     position: fixed;
+//     top: 0;
+//     width: 100vw;
+//     height: 100vh;
+//     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+//     // .mob-menu__close
 
-    // .mob-mune__nav-list
+//     &__close {}
 
-    &__nav-list {}
+//     // .mob-menu__nav
 
-    // .mob-mune__nav-item
+//     &__nav {}
 
-    &__nav-item {}
+//     // .mob-menu__current
 
-    // .mob-mune__nav-link
+//     &__current {}
 
-    &__nav-link {}
+//     // .mob-menu__soc-list
 
-    // .mob-mune__connect
+//     &__soc-list {}
 
-    &__connect {}
+//     // .mob-menu__soc-item
 
-    // .mob-mune__connect-item
+//     &__soc-item {}
 
-    &__connect-item {}
+//     // .mob-menu__soc-link
 
-    // .mob-mune__connect-mail
+//     &__soc-link {}
+// }
 
-    &__connect-mail {}
+// .mob-mune {
 
-    // .mob-mune__connect-phone
+//     // .mob-mune__nav-list
 
-    &__connect-phone {}
-}
+//     &__nav-list {}
+
+//     // .mob-mune__nav-item
+
+//     &__nav-item {}
+
+//     // .mob-mune__nav-link
+
+//     &__nav-link {}
+
+//     // .mob-mune__connect
+
+//     &__connect {}
+
+//     // .mob-mune__connect-item
+
+//     &__connect-item {}
+
+//     // .mob-mune__connect-mail
+
+//     &__connect-mail {}
+
+//     // .mob-mune__connect-phone
+
+//     &__connect-phone {}
+// }
