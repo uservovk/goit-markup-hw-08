@@ -1,17 +1,35 @@
 .header {
     // border-bottom: 1px solid #ECECEC;
     // position: relative;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .header-content {
     display: flex;
+    padding-right: 10px;
 }
 
 .header__menu-btn {
+    display: inline-flex;
+    padding: 0;
     margin-left: auto;
     background-color: transparent;
     border: none;
+
+    & .header__icon-close {
+        display: none;
+    }
+    &.is-open .header__icon-close {
+        display: block;
+    }
+    &.is-open .header__icon-menu {
+        display: none;
+    }
 }
+
+
+
 
 // .menu-open {
 //     margin-left: auto;
