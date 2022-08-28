@@ -343,6 +343,19 @@ ul {
   position: relative;
 }
 
+.header__menu-open {
+  margin-left: auto;
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+}
+
+.header__menu-close {
+  background-color: transparent;
+  padding: 0;
+  border: 0;
+}
+
 .header-content__logo {
   display: -webkit-box;
   display: -ms-flexbox;
