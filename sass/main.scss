@@ -8,8 +8,9 @@
 
 @import './components/header/header';
 @import './components/logo';
-@import './components/header/header-nav';
-@import './components/header/header-contacts';
+@import './components/header/navigation';
+@import './components/header/contacts';
+@import './components/header/mob-menu';
 
 @import './hero';
 @import './components/studio/hero/modal';
