@@ -350,10 +350,21 @@ ul {
   border: 0;
 }
 
-.header__menu-close {
+.mob-menu__close {
   background-color: transparent;
   padding: 0;
   border: 0;
+  border: none;
+}
+
+.mob-menu {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  -webkit-box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+          box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.04), 0px 2px 4px rgba(0, 0, 0, 0.08), 0px 1px 3px rgba(0, 0, 0, 0.16);
+  background-color: yellow;
 }
 
 .header-content__logo {
