@@ -332,8 +332,10 @@ ul {
   display: flex;
 }
 
-.mob-menu {
+.header__menu-btn {
   margin-left: auto;
+  background-color: transparent;
+  border: none;
 }
 
 .header-content__logo {
