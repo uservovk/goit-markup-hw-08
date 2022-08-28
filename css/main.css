@@ -332,6 +332,10 @@ ul {
   display: flex;
 }
 
+.menu__open {
+  margin-left: auto;
+}
+
 .header-content__logo {
   display: -webkit-box;
   display: -ms-flexbox;
