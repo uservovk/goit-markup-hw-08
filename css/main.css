@@ -420,6 +420,24 @@ ul {
   padding-left: 25px;
 }
 
+.mob-menu__soc-item:first-child {
+  padding-right: 10px;
+}
+.mob-menu__soc-item:last-child {
+  padding-left: 10px;
+}
+.mob-menu__soc-item:nth-child(2) {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mob-menu__soc-item:nth-child(3) {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.mob-menu__soc-item:not(:last-child) {
+  border-right: 2px solid rgba(33, 33, 33, 0.2);
+}
+
 .mob-menu__soc-link {
   font-weight: 500;
   font-size: 18px;

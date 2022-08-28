@@ -93,6 +93,26 @@
     padding-left: 25px;
 }
 
+.mob-menu__soc-item {
+    &:first-child {
+        padding-right: 10px;
+    }
+    &:last-child {
+        padding-left: 10px;
+    }
+    &:nth-child(2) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    &:nth-child(3) {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    &:not(:last-child) {
+        border-right: 2px solid rgba(33, 33, 33, 0.2);
+    }
+}
+
 .mob-menu__soc-link {
     font-weight: 500;
     font-size: 18px;
@@ -100,3 +120,4 @@
     letter-spacing: 0.02em;
     color: $accent-color;
 }
+
