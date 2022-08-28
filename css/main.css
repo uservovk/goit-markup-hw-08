@@ -358,6 +358,9 @@ ul {
   border: 0;
   border: none;
 }
+.mob-menu__close:hover, .mob-menu__close:focus {
+  fill: #2196F3;
+}
 
 .mob-menu {
   padding-top: 10px;
@@ -404,6 +407,9 @@ ul {
   line-height: 1.175;
   letter-spacing: 0.02em;
   color: #212121;
+}
+.mob-menu__nav-link:hover, .mob-menu__nav-link:focus {
+  color: #2196F3;
 }
 
 .mob-menu__connect-list {

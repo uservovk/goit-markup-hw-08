@@ -26,10 +26,10 @@
     border: 0;
     border: none;
 
-    // &:hover,
-    // &:focus {
-    //     color: $accent-color;
-    // }
+    &:hover,
+    &:focus {
+        fill: $accent-color;
+    }
 }
 // .mob-close:hover {
 //     color: $accent-color;
@@ -72,6 +72,11 @@
     line-height: 1.175;
     letter-spacing: 0.02em;
     color: $title-color;
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+    }
 }
 
 .mob-menu__connect-list {
