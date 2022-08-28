@@ -371,9 +371,27 @@ ul {
   background-color: yellow;
 }
 
+.mob-menu .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: auto;
+}
+
 .mob-menu__nav {
   padding-left: 25px;
-  margin-bottom: 300px;
+}
+
+.mob-menu__nav-list .mob-menu__current {
+  color: #2196F3;
 }
 
 .mob-menu__nav-item:not(:last-child) {

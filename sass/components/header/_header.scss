@@ -46,9 +46,20 @@
     background-color: yellow;
 }
 
+.mob-menu .container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-between;
+    overflow: auto;
+}
+
 .mob-menu__nav {
     padding-left: 25px;
-    margin-bottom: 300px;
+}
+
+.mob-menu__nav-list .mob-menu__current {
+    color: $accent-color;
 }
 
 .mob-menu__nav-item:not(:last-child) {
