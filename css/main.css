@@ -1292,14 +1292,26 @@ textarea {
   color: #757575;
 }
 
+.activity {
+  padding-bottom: 94px;
+  padding-top: 94px;
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .activity {
+    display: block;
+  }
+}
+
 .activity__title {
+  height: 42px;
   margin-bottom: 50px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #2196F3;
+  color: #212121;
 }
 
 .activity__list {
@@ -1319,10 +1331,6 @@ textarea {
   display: block;
   max-width: 100%;
   height: auto;
-}
-
-.activity {
-  padding-bottom: 94px;
 }
 
 .cover {
