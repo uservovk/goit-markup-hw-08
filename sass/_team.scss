@@ -72,3 +72,38 @@
         padding-bottom: 30px;
     }
 }
+
+.soc__link {
+    @extend %flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        background-color: $accent-color;
+    }
+}
+
+.soc__icon {
+    fill: $fill-color;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: $secondary-color;
+    }
+
+    .soc__link:hover &,
+    .soc__link:focus & {
+        fill: $secondary-color;
+    }
+}
+
+.soc {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+}
