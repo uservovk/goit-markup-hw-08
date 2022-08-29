@@ -1958,6 +1958,12 @@ textarea {
   padding-top: 60px;
   padding-bottom: 60px;
 }
+@media screen and (min-width: 1200px) {
+  .portfolio {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
 
 .portfolio__item {
   width: 370px;
@@ -2041,7 +2047,7 @@ textarea {
 }
 
 .portfolio__btn-list {
-  margin-bottom: 40px;
+  margin-bottom: 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -2049,9 +2055,27 @@ textarea {
       flex-wrap: wrap;
   list-style: none;
 }
+@media screen and (min-width: 605px) {
+  .portfolio__btn-list {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .portfolio__btn-list {
+    margin-bottom: 50px;
+  }
+}
 
 .portfolio__btn-item {
   margin-bottom: 15px;
+}
+@media screen and (min-width: 605px) {
+  .portfolio__btn-item {
+    margin-bottom: 0;
+  }
 }
 
 .portfolio__btn-item:not(:last-child) {

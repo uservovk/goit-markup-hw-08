@@ -20,14 +20,25 @@
     }
 }
 .portfolio__btn-list {
-    margin-bottom: 40px;
+    margin-bottom: 25px;
     display: flex;
     flex-wrap: wrap;
+    
     // justify-content: center;
     list-style: none;
+    @media screen and(min-width: 605px) {
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    @include desktop {
+        margin-bottom: 50px;
+    }
 }
 .portfolio__btn-item {
     margin-bottom: 15px;
+    @media screen and(min-width: 605px) {
+        margin-bottom: 0;
+    }
 }
 .portfolio__btn-item:not(:last-child) {
     margin-right: 8px;
