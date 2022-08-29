@@ -7,6 +7,18 @@
     }
 }
 
+.advantages .container {
+    @include mobile {
+        width: 480px;
+    }
+    @include tablet {
+        width: 768px;
+    }
+    @include desktop {
+        width: 1200px;
+    }
+}
+
 .advantages__list {
     list-style: none;
     @include tablet {

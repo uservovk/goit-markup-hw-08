@@ -7,15 +7,21 @@
     }
 }
 
+.portfolio .container {
+    @media screen and(min-width: 480px) {
+        width: 480px;
+    }
+}
+
 .portfolio__item {
     width: 100%;
-    @media screen and(min-width: 480px) {
-        width: 450px;
-    }
-    @include tablet {
-        width: 354px;
+    // @media screen and(min-width: 480px) {
+    //     width: 450px;
+    // }
+    // @include tablet {
+    //     width: 354px;
         
-    }
+    // }
 }
 
 .portfolio__list {

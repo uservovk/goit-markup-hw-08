@@ -6,6 +6,19 @@
         padding-top: 94px;
     }
 }
+
+.clients .container {
+    @include mobile {
+        width: 480px;
+    }
+    @include tablet {
+        width: 768px;
+    }
+    @include desktop {
+        width: 1200px;
+    }
+}
+
 .clients__title {
     margin-bottom: 30px;
     font-weight: 700;
