@@ -18,13 +18,19 @@ textarea {
 }
 
 .form__title {
-    height: 60px;
+    margin-bottom: 8px;
+    height: auto;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 12px;
+    @media screen and(min-width: 457px) {
+        margin-bottom: 12px;
+    }
+    @include mobile {
+        height: 60px;
+    }
     @include desktop {
     line-height: 1.15;
     height: 23px;
@@ -75,6 +81,9 @@ textarea {
         line-height: 1.166;
         letter-spacing: 0.01em;
         color: rgba(117, 117, 117, 0.5);
+    }
+    @media screen and(max-width: 479px) {
+        height: 85px;
     }
 }
 
