@@ -347,7 +347,6 @@ ul {
 }
 
 .header {
-  border-bottom: 1px solid #ECECEC;
   padding-top: 10px;
   padding-bottom: 10px;
 }
@@ -356,6 +355,10 @@ ul {
     padding-top: 0;
     padding-bottom: 0;
   }
+}
+
+.header-portfolio {
+  border-bottom: 1px solid #ECECEC;
 }
 
 .header-content {
