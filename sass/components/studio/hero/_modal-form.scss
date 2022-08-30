@@ -17,6 +17,10 @@ textarea {
         }
 }
 
+.form__field-name {
+    margin-top: 45px;
+}
+
 .form__title {
     height: 23px;
     font-weight: 700;
@@ -25,7 +29,7 @@ textarea {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 12px;
+    // margin-bottom: 12px;
 }
 
 .input-wrap {
