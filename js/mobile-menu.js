@@ -12,6 +12,7 @@
   refs.menuList.addEventListener("click", removeMenu);
 
   function toggleMenu() {
+    document.body.classList.toggle("mob-menu-open");
     refs.menu.classList.toggle("is-hidden");
   }
   function removeMenu() {

@@ -270,6 +270,10 @@ body.modal-open {
   overflow: hidden;
 }
 
+body.mob-menu-open {
+  overflow: hidden;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -2196,6 +2200,7 @@ textarea {
   border-left: 1px solid #EEEEEE;
   border-bottom: 1px solid #EEEEEE;
 }
+
 @media screen and (min-width: 768px) {
   .portfolio__content-second {
     padding-right: 18px;
