@@ -18,15 +18,17 @@ textarea {
 }
 
 .form__title {
-    // height: 23px;
     height: 60px;
     font-weight: 700;
     font-size: 20px;
-    // line-height: 1.15;desktop
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
-    // margin-bottom: 12px;
+    margin-bottom: 12px;
+    @include desktop {
+    line-height: 1.15;
+    height: 23px;
+    }
 }
 
 .input-wrap {
@@ -67,7 +69,6 @@ textarea {
 .form__field textarea {
     padding: 12px 16px;
     cursor: pointer;
-
     &::placeholder {
         font-weight: 400;
         font-size: 12px;
@@ -84,7 +85,6 @@ textarea {
     height: 120px;
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
     &:focus {
         border-color: $accent-color;
     }
@@ -137,15 +137,17 @@ textarea {
     justify-content: center;
 
     label {
-        // height: 24px;desktop
         height: 15px;
         font-weight: 400;
-        // font-size: 14px;desktop
-        // line-height: 1.71;
         font-size: 12px;
         line-height: 1.166;
         letter-spacing: 0.03em;
         color: $text-color;
+        @include desktop {
+            height: 24px;
+            font-size: 14px;
+            line-height: 1.71;
+        }
         }
 }
 

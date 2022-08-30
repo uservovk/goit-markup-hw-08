@@ -1012,6 +1012,13 @@ ul {
   -webkit-transform: translate(-50%, -50%) scale(0);
           transform: translate(-50%, -50%) scale(0);
 }
+@media screen and (min-width: 1200px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+}
+
 .modal__close-btn {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1074,6 +1081,13 @@ textarea {
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 12px;
+}
+@media screen and (min-width: 1200px) {
+  .form__title {
+    line-height: 1.15;
+    height: 23px;
+  }
 }
 
 .input-wrap {
@@ -1231,6 +1245,13 @@ textarea {
   line-height: 1.166;
   letter-spacing: 0.03em;
   color: #757575;
+}
+@media screen and (min-width: 1200px) {
+  .policy label {
+    height: 24px;
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
 
 .policy__link {
