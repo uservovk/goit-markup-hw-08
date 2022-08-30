@@ -2,6 +2,11 @@ body {
     font-family: 'Roboto', sans-serif;
     color: $title-color;
 }
+
+body.modal-open {
+    overflow: hidden;
+}
+
 .container {
     padding-left: 15px;
     padding-right: 15px;

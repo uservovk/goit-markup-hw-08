@@ -266,6 +266,10 @@ body {
   color: #212121;
 }
 
+body.modal-open {
+  overflow: hidden;
+}
+
 .container {
   padding-left: 15px;
   padding-right: 15px;
