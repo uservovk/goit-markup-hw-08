@@ -21,7 +21,8 @@ textarea {
     height: 23px;
     font-weight: 700;
     font-size: 20px;
-    line-height: 1.15;
+    // line-height: 1.15;desktop
+    line-height: 1.5;
     text-align: center;
     letter-spacing: 0.03em;
     margin-bottom: 12px;
@@ -135,10 +136,13 @@ textarea {
     justify-content: center;
 
     label {
-        height: 24px;
+        // height: 24px;desktop
+        height: 15px;
         font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
+        // font-size: 14px;desktop
+        // line-height: 1.71;
+        font-size: 12px;
+        line-height: 1.166;
         letter-spacing: 0.03em;
         color: $text-color;
         }
