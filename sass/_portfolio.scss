@@ -8,20 +8,28 @@
 }
 
 .portfolio .container {
-    @media screen and(min-width: 480px) {
+    @include mobile {
         width: 480px;
+    }
+    @include tablet {
+        width: 768px;
+    }
+    @include desktop {
+        width: 1200px;
     }
 }
 
 .portfolio__item {
     width: 100%;
-    // @media screen and(min-width: 480px) {
-    //     width: 450px;
-    // }
-    // @include tablet {
-    //     width: 354px;
-        
-    // }
+    @media screen and(min-width: 480px) {
+        width: 450px;
+    }
+    @include tablet {
+        width: 354px;
+    }
+    @include desktop {
+        width: 370px;
+    }
 }
 
 .portfolio__list {
@@ -76,11 +84,18 @@
     border-right: 1px solid #EEEEEE;
     border-left: 1px solid #EEEEEE;
     border-bottom: 1px solid #EEEEEE;
+    @include tablet {
+
+    }
 }
 
 .portfolio__content-second {
     @include tablet {
-        padding-right: 16px;
-        padding-left: 16px;
+        padding-right: 18px;
+        padding-left: 18px;
+    }
+    @include desktop {
+        padding-right: 24px;
+        padding-left: 24px;
     }
 }
