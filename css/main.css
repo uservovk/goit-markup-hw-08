@@ -1067,12 +1067,8 @@ textarea {
   color: #757575;
 }
 
-.form__field-name {
-  margin-top: 45px;
-}
-
 .form__title {
-  height: 23px;
+  height: 60px;
   font-weight: 700;
   font-size: 20px;
   line-height: 1.5;
