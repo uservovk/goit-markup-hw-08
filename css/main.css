@@ -663,6 +663,7 @@ ul {
 }
 
 .mob-menu {
+  z-index: 2;
   padding-top: 10px;
   padding-bottom: 48px;
   position: fixed;
@@ -2184,6 +2185,7 @@ textarea {
   display: block;
   max-width: 100%;
   height: auto;
+  z-index: 1;
 }
 
 .portfolio__text {
