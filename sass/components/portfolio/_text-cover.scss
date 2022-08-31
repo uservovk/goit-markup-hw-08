@@ -17,7 +17,7 @@
     background: rgba(33, 150, 243, 0.9);
     transform: translateY(101%);
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    overflow: auto;
+    overflow: hidden;
 
     .portfolio__link:hover &,
     .portfolio__link:focus & {
