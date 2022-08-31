@@ -56,7 +56,11 @@
 
 .advantages__title {
     margin-bottom: 10px;
+    text-align: center;
     @include uppercase-title($title-color);
+    @include tablet {
+        text-align: start;
+    }
 }
 
 .advantages__text {
